@@ -1,0 +1,13 @@
+
+name: Assignment Check
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 25f1002223@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
